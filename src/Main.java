@@ -1,3 +1,4 @@
+import dip.*;
 import lsp.TeslaModelS;
 import lsp.Vehicle;
 import lsp.VehicleMovementTesterService;
@@ -34,5 +35,31 @@ public class Main {
 //        VehicleMovementTesterService vmts = new VehicleMovementTesterService();
 //        vmts.testMovement(new Vehicle());
 //        vmts.testMovement(new TeslaModelS());
+//        DIP
+//        SwitchableApplianceInterface app_;
+//        SwitchInterface switch_;
+//        // LightBulb and PowerSwitch
+//        app_ = new LightBulb();
+//        switch_= new PowerSwitch(app_);
+//        switch_.press();
+//        switch_.press();
+//
+//        // Fan and PowerSwitch
+//        app_ = new Fan();
+//        switch_= new PowerSwitch(app_);
+//        switch_.press();
+//        switch_.press();
+//
+//        // LightBulb and RemoteSwitch
+//        app_ = new LightBulb();
+//        switch_= new RemoteSwitch(app_);
+//        switch_.press();
+//        switch_.press();
+//
+//        // LightBulb and PowerSwitch
+//        app_ = new Fan();
+//        switch_= new RemoteSwitch(app_);
+//        switch_.press();
+//        switch_.press();
     }
 }
