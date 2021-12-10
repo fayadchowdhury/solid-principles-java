@@ -30,5 +30,9 @@ public class Main {
 //        ni = new SMSNotificationService();
 //        ni.sendNewDeals();
 //        ni.sendRestock("Nescafe Gold Coffee");
+//        LSP
+//        VehicleMovementTesterService vmts = new VehicleMovementTesterService();
+//        vmts.testMovement(new Vehicle());
+//        vmts.testMovement(new TeslaModelS());
     }
 }
