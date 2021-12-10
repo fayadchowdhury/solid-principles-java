@@ -1,3 +1,9 @@
+import lsp.TeslaModelS;
+import lsp.Vehicle;
+import lsp.VehicleMovementTesterService;
+import ocp.EmailNotificationService;
+import ocp.NotificationInterface;
+import ocp.SMSNotificationService;
 import srp.DatabaseConnectionService;
 import srp.InvoiceService;
 import srp.InvoiceServiceSrp;
@@ -17,5 +23,12 @@ public class Main {
 //        os.fetchOrders("170041041");
 //        InvoiceServiceSrp invSerSrp = new InvoiceServiceSrp();
 //        invSerSrp.generateInvoice();
+//        OCP
+//        NotificationInterface ni = new EmailNotificationService();
+//        ni.sendNewDeals();
+//        ni.sendRestock("Nescafe Gold Coffee");
+//        ni = new SMSNotificationService();
+//        ni.sendNewDeals();
+//        ni.sendRestock("Nescafe Gold Coffee");
     }
 }
